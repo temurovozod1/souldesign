@@ -1,0 +1,347 @@
+/* fonts oswald , poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+
+body {
+    background: #222831;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1248px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+a {
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .header-nav a {
+    text-decoration: none;
+    list-style: none;
+    margin: 40px;
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header .header-nav a:hover {
+    color: gold;
+}
+
+.header .header-nav a:first-child {
+    margin-left: 0;
+}
+
+.header .header-logo .header-title {
+    color: #EEE;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+/* main section  */
+
+.main-section {
+    margin-top: 90px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+}
+
+.main-section .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 97px;
+}
+
+.main .container h1 {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    width: 585px;
+}
+
+.main h1 span {
+    color: #00ADB5;
+    font-family: 'Poppins';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.main .main-img img {
+    width: 100%;
+}
+
+.main .flax-div .main-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.main .main-btns .btn {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 24px;
+    padding: 10px 32px;
+    background: #00ADB5;
+    border: none;
+    cursor: pointer;
+}
+
+.main .main-btns .btn2 {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 24px;
+    background: rgba(57, 62, 70, 0.75);
+    backdrop-filter: blur(2px);
+    display: flex;
+    padding: 10px 32px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    margin-left: 24px;
+    cursor: pointer;
+
+}
+
+.main .main-btns p {
+    width: 380px;
+    color: rgba(238, 238, 238, 0.75);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -48px;
+}
+
+/* works section */
+
+.works-section {
+    background-image: url(../images/works-img.svg);
+}
+
+.works-section .title h2 {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 146px;
+}
+
+
+.works-section .title h2 span {
+    color: #00ADB5;
+}
+
+.works-section .title button {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 24px;
+    background: rgba(57, 62, 70, 0.50);
+    padding: 10px 32px;
+    gap: 20px;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.works-section .title button:hover {
+    background: #00ADB5;
+}
+
+.works-section .works-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-bottom: 146px;
+}
+
+.works-section .works-imgs div {
+    border-radius: 16px;
+    background: rgba(57, 62, 70, 0.50);
+    backdrop-filter: blur(2px);
+    padding: 51px 31px 51px 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 265px;
+}
+
+/* status section */
+
+.status {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+    padding-bottom: 145px;
+}
+
+.status .status-title h1 {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 600px;
+    margin-left: 0;
+}
+
+.status .status-title h1 span {
+    color: #00ADB5;
+}
+
+.status .inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.status .inputs p {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.status .inputs input {
+    display: flex;
+    width: 56px;
+    height: 27px;
+    padding: 16px 240px 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: rgba(57, 62, 70, 0.50);
+    border: none;
+    outline: none;
+}
+
+.status .big-input p {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.status .big-input input {
+    padding: 16px 10px 150px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(57, 62, 70, 0.50);
+    border: none;
+    width: 617px;
+    outline: none;
+}
+
+.status .big-input button {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    padding: 10px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #00ADB5;
+    border: none;
+    margin-top: 24px;
+    outline: none;
+}
+
+.status .container {
+    display: flex;
+    margin-top: 157px;
+}
+
+.status .registratsiya {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer section */
+.footer .a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .a ul {
+    list-style: none;
+}
+
+.footer .a a {
+    color: #EEE;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer .internet {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+.footer a {
+    margin: 0 24px;
+}
+
+
+/* media quary*/
+
+@media screen and (max-widht:1300px) {
+    .container {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-widht:1122px) {
+    .main .container h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-widht:965px) {
+    .main .container h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+}
